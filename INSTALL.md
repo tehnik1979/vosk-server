@@ -1,4 +1,4 @@
-,,,
+```
 apt-get update 
 apt-get install -y --no-install-recommends g++ gfortran bzip2 unzip make wget git python3 python3-dev python3-websockets python3-setuptools python3-pip python3-wheel zlib1g-dev patch ca-certificates swig cmake xz-utils mc
 git clone -b lookahead --single-branch https://github.com/alphacep/kaldi /opt/kaldi
@@ -38,4 +38,4 @@ mv vosk-model-ru-${RUVERSION} model \
 rm -rf model/extra \
 rm -rf model/rnnlm \
 rm -rf vosk-model-ru-${RUVERSION}.zip
-,,,
+```
